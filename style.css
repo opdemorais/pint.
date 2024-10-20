@@ -1,0 +1,216 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #e2caca59;
+}
+
+/* Header */
+header {
+  background-color: rgb(247, 240, 240);
+  color: white;
+  padding: 5px:0% 0;
+  text-align:center;
+  
+}
+
+header h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color:black;
+  text-decoration: none;
+  font-size: 18px;
+  align-items: self-end;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  background: url("banner.jpg") no-repeat center center/cover;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(197, 14, 14);
+  text-align: center;
+}
+
+.banner h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.banner .btn {
+  background-color: #f7941e;
+  color: rgb(29, 11, 11);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.banner .btn:hover {
+  background-color: #e67e22;
+}
+
+/* Seção Sobre */
+.about-section,
+.services-section,
+.testimonials-section,
+.contact-section {
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Serviços */
+.services-section .service {
+  margin-bottom: 20px;
+}
+
+.services-section .service h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Depoimentos */
+.testimonials-section .testimonial {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+/* Formulário de Contato */
+.contact-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-section form label {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-section form button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-section form button:hover {
+  background-color: #555;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer a {
+  color: #f7941e;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+/* Botão de WhatsApp */
+.whatsapp-section {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.whatsapp-btn {
+  display: inline-flex;
+  align-items: center;
+  background-color: #25d366;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.whatsapp-btn img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.whatsapp-btn:hover {
+  background-color: #1ebe5f;
+}
+
+img {
+  width: 10%;
+  height: 10%;
+  margin: 20px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
